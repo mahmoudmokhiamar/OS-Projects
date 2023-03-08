@@ -11,6 +11,7 @@ using System.Timers;
 using System.IO;
 using System.Runtime.Serialization;
 using System.Threading;
+using System.Net.NetworkInformation;
 
 namespace WindowsServiceProject
 {
@@ -33,13 +34,16 @@ namespace WindowsServiceProject
         public void working()
         {
             string path = " C:\\Performance_Analyzer.txt";
-            using (StreamWriter writer = new StreamWriter(path, true))
-            {
-                writer.WriteLine("CPU usage is at " + cpuUsage() + "%");
-                writer.WriteLine("RAM usage is at " + ramUsage() + "%");
-                writer.WriteLine("Hard Drive usage is at " + hddUsage() + "%");
-                writer.Close();
-            }
+            File.Delete(path);
+            StreamWriter writer = new StreamWriter(path, true);
+            string[] network = networkUsage();
+            writer.WriteLine("CPU usage is at " + cpuUsage() + "%");
+            writer.WriteLine("RAM usage is at " + ramUsage() + "%");
+            writer.WriteLine("Hard Drive usage is at " + hddUsage() + "%");
+            writer.WriteLine("kbytes sent " + network[0] + " kbs");
+            writer.WriteLine("kbytes recieved " + network[1] + " kbs");
+            writer.Close();
+
         }
         public string cpuUsage()
         {
@@ -84,6 +88,21 @@ namespace WindowsServiceProject
                 }
             }
         }
+        public string[] networkUsage()
+        {
+            long kbytesSent = 0;
+            long kbytesReceived = 0;
 
+            foreach (NetworkInterface ni in NetworkInterface.GetAllNetworkInterfaces())
+            {
+                kbytesSent += ni.GetIPv4Statistics().BytesSent / 1024;
+                kbytesReceived += ni.GetIPv4Statistics().BytesReceived / 1024;
+            }
+            Thread.Sleep(1000);
+            string[] sent_recieve = new string [2];
+            sent_recieve[0] = kbytesSent.ToString();
+            sent_recieve[1] = kbytesReceived.ToString();
+            return sent_recieve;
+        }
     }
 }
