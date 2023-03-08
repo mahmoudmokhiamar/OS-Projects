@@ -1,0 +1,15 @@
+﻿Installing assembly 'W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\WindowsServiceProject\bin\Debug\WindowsServiceProject.exe'.
+Affected parameters are:
+   i = 
+   logfile = W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\WindowsServiceProject\bin\Debug\WindowsServiceProject.InstallLog
+   assemblypath = W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\WindowsServiceProject\bin\Debug\WindowsServiceProject.exe
+   logtoconsole = 
+Installing service My new service display name...
+Service My new service display name has been successfully installed.
+Creating EventLog source My new service display name in log Application...
+Committing assembly 'W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\WindowsServiceProject\bin\Debug\WindowsServiceProject.exe'.
+Affected parameters are:
+   i = 
+   logfile = W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\WindowsServiceProject\bin\Debug\WindowsServiceProject.InstallLog
+   assemblypath = W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\WindowsServiceProject\bin\Debug\WindowsServiceProject.exe
+   logtoconsole = 

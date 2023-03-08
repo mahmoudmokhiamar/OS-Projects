@@ -1,0 +1,17 @@
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\obj\Debug\net6.0-windows\multithreaddraw.csproj.AssemblyReference.cache
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\obj\Debug\net6.0-windows\multithreaddraw.Form1.resources
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\obj\Debug\net6.0-windows\multithreaddraw.csproj.GenerateResource.cache
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\obj\Debug\net6.0-windows\multithreaddraw.GeneratedMSBuildEditorConfig.editorconfig
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\obj\Debug\net6.0-windows\multithreaddraw.AssemblyInfoInputs.cache
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\obj\Debug\net6.0-windows\multithreaddraw.AssemblyInfo.cs
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\obj\Debug\net6.0-windows\multithreaddraw.csproj.CoreCompileInputs.cache
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\bin\Debug\net6.0-windows\multithreaddraw.exe
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\bin\Debug\net6.0-windows\multithreaddraw.deps.json
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\bin\Debug\net6.0-windows\multithreaddraw.runtimeconfig.json
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\bin\Debug\net6.0-windows\multithreaddraw.dll
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\bin\Debug\net6.0-windows\multithreaddraw.pdb
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\obj\Debug\net6.0-windows\multithreaddraw.dll
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\obj\Debug\net6.0-windows\refint\multithreaddraw.dll
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\obj\Debug\net6.0-windows\multithreaddraw.pdb
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\obj\Debug\net6.0-windows\multithreaddraw.genruntimeconfig.cache
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\multithreaddraw\obj\Debug\net6.0-windows\ref\multithreaddraw.dll

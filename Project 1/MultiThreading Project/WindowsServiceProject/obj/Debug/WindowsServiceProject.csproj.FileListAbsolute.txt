@@ -1,0 +1,10 @@
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\WindowsServiceProject\bin\Debug\WindowsServiceProject.exe.config
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\WindowsServiceProject\bin\Debug\WindowsServiceProject.exe
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\WindowsServiceProject\bin\Debug\WindowsServiceProject.pdb
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\WindowsServiceProject\obj\Debug\WindowsServiceProject.csproj.AssemblyReference.cache
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\WindowsServiceProject\obj\Debug\WindowsServiceProject.csproj.SuggestedBindingRedirects.cache
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\WindowsServiceProject\obj\Debug\WindowsServiceProject.ProjectInstaller.resources
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\WindowsServiceProject\obj\Debug\WindowsServiceProject.csproj.GenerateResource.cache
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\WindowsServiceProject\obj\Debug\WindowsServiceProject.csproj.CoreCompileInputs.cache
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\WindowsServiceProject\obj\Debug\WindowsServiceProject.exe
+W:\Ejust 2022-2023\Spring 2023\CSC 211 - Operating Systems\Projects\Project 1\MultiThreading Project\WindowsServiceProject\obj\Debug\WindowsServiceProject.pdb
