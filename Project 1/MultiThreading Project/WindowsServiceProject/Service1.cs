@@ -12,6 +12,7 @@ using System.IO;
 using System.Runtime.Serialization;
 using System.Threading;
 using System.Net.NetworkInformation;
+using System.Net.Mail;
 
 namespace WindowsServiceProject
 {
@@ -25,7 +26,11 @@ namespace WindowsServiceProject
 
         protected override void OnStart(string[] args)
         {
-            working();
+            while(true) {
+                Thread.Sleep(12*60*60*1000); //making process run every 12 hours.
+                working();
+                sendMail();
+            }
         }
 
         protected override void OnStop()
@@ -33,6 +38,7 @@ namespace WindowsServiceProject
         }
         public void working()
         {
+
             string path = " C:\\Performance_Analyzer.txt";
             File.Delete(path);
             StreamWriter writer = new StreamWriter(path, true);
@@ -40,8 +46,8 @@ namespace WindowsServiceProject
             writer.WriteLine("CPU usage is at " + cpuUsage() + "%");
             writer.WriteLine("RAM usage is at " + ramUsage() + "%");
             writer.WriteLine("Hard Drive usage is at " + hddUsage() + "%");
-            writer.WriteLine("kbytes sent " + network[0] + " kbs");
-            writer.WriteLine("kbytes recieved " + network[1] + " kbs");
+            writer.WriteLine("Network kbytes sent " + network[0] + " kbs");
+            writer.WriteLine("Network kbytes recieved " + network[1] + " kbs");
             writer.Close();
 
         }
@@ -103,6 +109,39 @@ namespace WindowsServiceProject
             sent_recieve[0] = kbytesSent.ToString();
             sent_recieve[1] = kbytesReceived.ToString();
             return sent_recieve;
+        }
+        public void sendMail()
+        {
+
+            string email = "mahmoudmokhiamar@gmail.com";
+            string to = email;
+            string from = "csprojectsejust@gmail.com";
+            MailMessage message = new MailMessage(from, to);
+            string mailbody = "";
+            message.Subject = "Computer System Usage Report";
+            Attachment attachment = new Attachment(@"C:\Performance_Analyzer.txt");
+            message.Attachments.Add(attachment);
+            message.Body = mailbody;
+            message.BodyEncoding = Encoding.UTF8;
+            message.IsBodyHtml = true;
+            SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
+            System.Net.NetworkCredential basicCredential1 = new
+            System.Net.NetworkCredential("csprojectsejust@gmail.com", "vznafseskwrrcalw");
+            client.EnableSsl = true;
+            client.UseDefaultCredentials = false;
+            client.Credentials = basicCredential1;
+            client.Send(message);
+            attachment.Dispose();
+            message.Dispose();
+            try
+            {
+                client.Send(message);
+            }
+
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }
